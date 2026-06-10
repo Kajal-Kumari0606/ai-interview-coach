@@ -1,6 +1,21 @@
 # AI Interview Coach
 
-An AI-powered interview preparation platform built with React, Vite, Node.js, Express.js, and Groq LLaMA API to help users practice interviews, receive personalized feedback, and improve communication skills.
+An AI-powered interview preparation platform built with React, Vite, Node.js, Express.js, and Google Gemini API to help users practice interviews, receive personalized guidance, and improve communication skills.
+
+## Tech Stack
+
+Frontend:
+- React.js
+- Vite
+- Axios
+- ReactMarkdown
+
+Backend:
+- Node.js
+- Express.js
+
+AI:
+- Google Gemini API
 
 ## Setup Instructions
 
@@ -18,15 +33,16 @@ npm install
 Create a `.env` file inside the backend folder:
 
 ```env
-GROQ_API_KEY="your_groq_api_key_here"
+GEMINI_API_KEY="your_gemini_api_key_here"
 ```
 
-### Get a Groq API Key
+### Get a Gemini API Key
 
-1. Go to https://console.groq.com/
-2. Sign in and navigate to the API Keys section.
-3. Create a new API key.
-4. Copy and paste the key into your `.env` file.
+1. Go to https://aistudio.google.com/
+2. Sign in with your Google account.
+3. Click "Get API Key".
+4. Create a new API key.
+5. Copy and paste the key into your .env file as GEMINI_API_KEY.
 
 ### Run Locally
 
@@ -51,12 +67,13 @@ http://localhost:5173
 
 ## Features
 
-* AI-powered mock interview chatbot for interview preparation.
-* Generates role-specific interview questions using Groq LLaMA API.
-* Provides personalized interview guidance and preparation support.
-* Real-time conversational interface for interactive practice sessions.
-* Responsive React-based user interface for seamless user experience.
+- AI-powered interview preparation chatbot
+- Generates structured interview answers using Gemini API
+- Provides key concepts and interview tips for technical questions
+- Real-time conversational interface for interview practice
+- Responsive React-based user interface
 
+  
 ## Screenshots
 
 <img width="2858" height="1540" alt="image" src="https://github.com/user-attachments/assets/3701d96d-3af4-4cd2-b6a7-60219749fb32" />
@@ -65,6 +82,8 @@ http://localhost:5173
 <img width="2844" height="1626" alt="image" src="https://github.com/user-attachments/assets/639adae8-758f-4b68-b1e6-7c3802717fba" />
 
 
-## GitHub Repository
+## Author
 
-GitHub: https://github.com/Kajal-Kumari0606/ai-interview-coach
+Kajal Kumari
+
+GitHub: https://github.com/Kajal-Kumari0606
