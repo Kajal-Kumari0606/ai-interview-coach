@@ -65,10 +65,6 @@ http://localhost:5173
 <img width="2844" height="1626" alt="image" src="https://github.com/user-attachments/assets/639adae8-758f-4b68-b1e6-7c3802717fba" />
 
 
-## Live Demo
-
-Live Link: (Add your deployed link here)
-
 ## GitHub Repository
 
 GitHub: https://github.com/Kajal-Kumari0606/ai-interview-coach
